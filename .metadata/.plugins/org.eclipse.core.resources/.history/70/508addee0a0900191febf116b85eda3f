@@ -1,0 +1,5 @@
+package com.eleven.mall.service.impl;
+
+public class ItemServiceImpl {
+
+}

@@ -1,0 +1,20 @@
+package cn.eleven.mall.controller;
+/***
+ * 商品管理Controller
+ * 
+ * @author 15757
+ *
+ */
+@Controller
+public class ItemController {
+	@Autowired
+	private ItemService itemService;
+	
+	@RequestMapping("/item/{itemId}")
+	@ResponseBody
+	private TbItem getItemById(@PathVariable Long itemId) {
+		TbItem tbItem = itemService.getItemById(itemId);
+		return tbItem;
+	}
+
+}

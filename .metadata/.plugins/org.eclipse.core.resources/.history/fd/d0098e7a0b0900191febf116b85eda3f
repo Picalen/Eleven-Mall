@@ -1,0 +1,10 @@
+package cn.eleven.mall.controller;
+/***
+ * 商品管理Controller
+ * 
+ * @author 15757
+ *
+ */
+public class ItemController {
+
+}
