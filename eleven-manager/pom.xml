@@ -23,7 +23,6 @@
   	<module>eleven-manager-dao</module>
   	<module>eleven-manager-interface</module>
   	<module>eleven-manager-service</module>
-  	<module>eleven-manager-web</module>
   </modules>
   
   <!-- 配置tomcat插件 -->

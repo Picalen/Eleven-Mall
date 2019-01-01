@@ -1,4 +1,4 @@
-package cn.eleven.mall.controller;
+package com.eleven.mall.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
